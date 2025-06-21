@@ -12,12 +12,21 @@ const Form = () => {
         e.preventDefault();
         setLoading(true);
 
-        // Below credentials are required to link your email id with contact form you can create your credentials in emailjs.com
+        // Build templateParams to match EmailJS template variables
+        const templateParams = {
+            name: userInput.from_name,
+            email: userInput.from_email,
+            message: userInput.message,
+            title: "Contact Form", // or set dynamically if needed
+            time: new Date().toLocaleString(),
+        };
+
+        // TODO: Replace the empty strings below with your actual EmailJS credentials
         send(
-            "", // Service ID
-            "", // Template ID
-            userInput,
-            "" // Public Key - https://dashboard.emailjs.com/admin/account
+            import.meta.env.VITE_EMAILJS_SERVICE_ID, // Service ID from .env
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Template ID from .env
+            templateParams,
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY // Public Key from .env
         )
             .then((response) => {
                 console.log("SUCCESS!", response.status, response.text);
