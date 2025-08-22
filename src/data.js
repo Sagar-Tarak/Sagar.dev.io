@@ -5,7 +5,7 @@ import p4 from "./assets/project-4.png";
 import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
 import spylt from "./assets/Spylt.png";
-import freqhaus from "./assets/Freqhaus.png";
+import freqhaus from "./assets/freq.png";
 export const filters = [
     {
         name: "All",
