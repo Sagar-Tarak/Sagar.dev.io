@@ -4,7 +4,8 @@ import p3 from "./assets/DreamView.png";
 import p4 from "./assets/project-4.png";
 import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
-
+import spylt from "./assets/Spylt.png";
+import freqhaus from "./assets/Freqhaus.png";
 export const filters = [
     {
         name: "All",
@@ -46,18 +47,30 @@ export const projects = [
         image: p3,
         tags: ["mini-projects"],
         url: "https://dreamviews.netlify.app/"
+    },
+    {
+        name: "Spylt Clone",
+        image: spylt,
+        tags: ["website"],
+        url: "https://spyltclone.netlify.app/"
+    },
+    {
+        name: "Freqhaus Studio",
+        image: freqhaus,
+        tags: ["website"],
+        url: "https://freqhausstudio.netlify.app/"
     }
 ];
 
 export const achievements = [
     {
         id: 1,
-        year: 3,
+        year: 4,
         description: "SUCCESSFULLY<br />COMPLETED<br />PROJECTS",
     },
     {
         id: 2,
-        year: 2,
+        year: 1,
         description: "YEARS OF<br />EXPERIENCE",
     },
     {
