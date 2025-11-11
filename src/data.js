@@ -4,7 +4,7 @@ import p3 from "./assets/DreamView.png";
 import p4 from "./assets/project-4.png";
 import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
-import spylt from "./assets/Spylt.png";
+import spylt from "./assets/spylt.png";
 import freqhaus from "./assets/freq.png";
 import Nimbus from "./assets/nimbus.png"
 
@@ -24,7 +24,7 @@ export const filters = [
     // },
     {
         name: "Website",
-        id: "website",
+        id: "website",dfsafsf
     },
     {
         name: "Mini Projects",
