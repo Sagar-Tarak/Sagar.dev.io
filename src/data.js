@@ -67,7 +67,7 @@ export const projects = [
         name: "Nimbus Landing Page",
         image: Nimbus,
         tags: ["website"],
-        url: "https://nimbus-landing-page.netlify.app/https://timbus.netlify.app/"
+        url: "https://nimbus-landing-page.netlify.app/"
     }
 ];
 
