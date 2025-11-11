@@ -6,6 +6,9 @@ import p5 from "./assets/project-5.png";
 import p6 from "./assets/project-6.png";
 import spylt from "./assets/Spylt.png";
 import freqhaus from "./assets/freq.png";
+import Nimbus from "./assets/nimbus.png"
+
+
 export const filters = [
     {
         name: "All",
@@ -42,12 +45,12 @@ export const projects = [
         tags: ["website"],
         url: "https://artisanvista.netlify.app/"
     },
-    {
-        name : "Three JS Mask Animation Mini Project",
-        image: p3,
-        tags: ["mini-projects"],
-        url: "https://dreamviews.netlify.app/"
-    },
+    // {
+    //     name : "Three JS Mask Animation Mini Project",
+    //     image: p3,
+    //     tags: ["mini-projects"],
+    //     url: "https://dreamviews.netlify.app/"
+    // },
     {
         name: "Spylt Clone",
         image: spylt,
@@ -59,6 +62,12 @@ export const projects = [
         image: freqhaus,
         tags: ["website"],
         url: "https://freqhausstudio.netlify.app/"
+    } ,
+    {
+        name: "Nimbus Landing Page",
+        image: Nimbus,
+        tags: ["website"],
+        url: "https://nimbus-landing-page.netlify.app/https://timbus.netlify.app/"
     }
 ];
 
@@ -75,7 +84,7 @@ export const achievements = [
     },
     {
         id: 3,
-        year: 25,
+        year: 12,
         description: "TECHNOLOGIES",
     },
     {
