@@ -24,7 +24,7 @@ export const filters = [
     // },
     {
         name: "Website",
-        id: "website",dfsafsf
+        id: "website",
     },
     {
         name: "Mini Projects",
